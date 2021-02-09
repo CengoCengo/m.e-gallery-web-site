@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    
+
+}
+
+.main-container{
+    width: 100%;
+}
+
+.menu-container{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+  
+  
+}
+
+#icon-menu img{
+    display: inline-block;
+
+}
+
+.menu-container h1{
+    display: inline-block;
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 40%;
+    width: 300px;
+    color:#8e8e8e;   
+    
+}
+
+#social-media{
+    position: absolute;
+    left: 85%;
+    bottom: 1.5%;
+   
+}
+
+
+.slider{
+    background-color: red;
+    width: 300px;
+    height: 200px;
+}
+
+
+

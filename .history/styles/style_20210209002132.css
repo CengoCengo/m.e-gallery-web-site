@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 900;
+ 
+    
+ 
+}
+::-webkit-scrollbar {
+  width: 5px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+  
+}
+/* Optional: show position indicator in red */
+/* ::-webkit-scrollbar-thumb {
+  background: #FF0000;
+} */
+
+
+.menu-container{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#icon-menu{
+    display: inline-block;
+    width: 50px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1%;
+  
+}
+
+h1.name{
+    display: inline-block;
+    font-weight: 200;
+    position: absolute;
+    margin-top: 1%;
+    left: 40%;
+    color:#8e8e8e;   
+  
+    
+}
+
+.social-media-container{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto; 
+    left: 84%;
+    padding-left: 4% ;
+
+}
+
+.icon-social{
+    margin-left: 0.5%;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  
+}
+
+.sticky + .slider-main {
+    padding-top: 70px; 
+   
+  }
+
+
+/* Slider */
+
+.slider-main{
+
+  display: flex;
+  overflow-y: hidden;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#first-item{
+    padding-left: 0 ;
+  
+  }
+
+.slider-item{
+    padding-left: 20px;
+    max-width: 100%;
+    height: 800px;
+    object-fit: cover;
+   
+}
+
+
+
+
+
+

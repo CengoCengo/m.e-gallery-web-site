@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 900;
+   
+   
+    
+
+}
+
+
+.menu-container{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+
+}
+
+#icon-menu{
+    display: inline-block;
+    width: 50px;
+  
+
+}
+
+h1.name{
+    display: inline-block;
+    font-weight: 200;
+    position: absolute;
+    margin-top: 1%;
+    left: 40%;
+    color:#8e8e8e;   
+  
+    
+}
+
+.social-media-container{
+    display: inline;
+    position: relative;
+    width: 100%; 
+    left: 84%;
+    
+   
+
+}
+
+.icon-social{
+    margin-left: 0.5%;
+}
+
+
+
+
+.slider{
+    background-color: grey;
+    width: 1250px;
+    height: 700px;
+    
+}
+
+
+
+

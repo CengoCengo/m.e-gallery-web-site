@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Montserrat', sans-serif;
+    
+
+}
+
+.main-container{
+    width: 100%;
+}
+
+.menu-container{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+  
+  
+}
+
+#icon-menu img{
+    display: inline-block;
+    width:2rem;
+
+}
+
+.menu-container h1{
+    display: inline-block;
+    position: absolute;
+    margin-top: 1%;
+    left: 45%;
+    width: 300px;
+    color:#8e8e8e;   
+    
+}
+
+.social-media-container{
+    position: absolute;
+    width: 100%;
+
+}
+
+#social-media{
+    position: absolute;
+    left: 85%;
+    margin-top: 1.5%;
+    width:200px;
+   
+}
+
+
+.slider{
+    background-color: grey;
+    width: 1250px;
+    height: 700px;
+    
+}
+
+.facebook-icon{
+    position: absolute;
+    left:80%;
+}
+
+.instagram-icon{
+    position: absolute;
+    left: 82%;
+}
+
+.youtube-icon{
+    position: absolute;
+    left: 85%;
+}
+
+
+

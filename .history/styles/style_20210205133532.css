@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+
+.menu-container{
+    display: inline-block;
+    position: relative;
+    left:400px;
+    margin-top: 10px;
+}
+
+.menu-container h1{
+
+}
+
+
+

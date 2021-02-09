@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Montserrat', sans-serif;
+    font-weight:100;
+   
+    
+
+}
+
+
+.menu-container{
+    display: inline;
+    position: relative;
+    width: 100%;
+
+}
+
+#icon-menu{
+    display: inline-block;
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+
+    
+
+}
+
+.name{
+    display: inline-block;
+    font-weight: 100;
+    position: absolute;
+    margin-top: 1%;
+    left: 40%;
+    color:#8e8e8e;   
+    
+}
+
+.social-media-container{
+    display: inline;
+    position: relative;
+    width: 100%; 
+    left: 84%;
+    
+   
+
+}
+
+.icon-social{
+    margin-left: 0.5%;
+}
+
+
+
+
+.slider{
+    background-color: grey;
+    width: 1250px;
+    height: 700px;
+    
+}
+
+
+
+
