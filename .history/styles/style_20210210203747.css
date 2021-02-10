@@ -68,7 +68,7 @@ h1.name{
 }
 
 .sticky + .slider-main {
-    padding-top: 65px; 
+    padding-top: 70px; 
    
   }
 
@@ -80,8 +80,8 @@ h1.name{
   display: flex;
   overflow-y: hidden;
   align-items: flex-start;
-  height:650px;
- 
+  height:700px;
+  overflow-y:hidden
   
 }
 #first-item{
@@ -91,8 +91,8 @@ h1.name{
 
 .slider-item{
     padding-left: 20px;
-    max-width: 1168px;
-    height: 750px;
+    max-width: 100%;
+    height: 800px;
     object-fit: cover;
    
 }

@@ -80,7 +80,7 @@ h1.name{
   display: flex;
   overflow-y: hidden;
   align-items: flex-start;
-  height:650px;
+  height:700px;
  
   
 }
@@ -92,7 +92,7 @@ h1.name{
 .slider-item{
     padding-left: 20px;
     max-width: 1168px;
-    height: 750px;
+    height: 700px;
     object-fit: cover;
    
 }
