@@ -113,10 +113,9 @@ h1.name{
   object-fit: cover; 
 }
 
-.fullscreen{
-   width: 30px;
+#fullscreen{
+  width: 30px;
 }
-
 
 
 
