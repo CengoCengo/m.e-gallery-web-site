@@ -69,7 +69,7 @@ h1.name {
   display: flex;
   overflow-y: hidden;
   align-items: flex-start;
-  height: 650px;
+ 
 }
 
 .slider-main::-webkit-scrollbar {

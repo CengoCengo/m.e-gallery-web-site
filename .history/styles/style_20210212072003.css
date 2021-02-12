@@ -73,14 +73,12 @@ h1.name {
 }
 
 .slider-main::-webkit-scrollbar {
-
-  height: 8px;
+  height: 10px;
 }
 
 .slider-main::-webkit-resizer {
   position: absolute;
   bottom: 20px;
-  width:1px;
 }
 
 #first-item {
