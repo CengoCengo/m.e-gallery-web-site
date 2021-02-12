@@ -56,7 +56,7 @@ h1.name {
 }
 
 .sticky + .slider-main {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 #myLinks {
@@ -81,8 +81,8 @@ h1.name {
 
 .slider-main::-webkit-resizer {
   position: absolute;
-  bottom: 10px;
-  
+  bottom: 20px;
+  width:1px;
 }
 
 #first-item {
