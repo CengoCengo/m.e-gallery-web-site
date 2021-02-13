@@ -1,6 +1,6 @@
 * {
-  margin: 0 ;
-  padding: 0 ;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
 }
@@ -27,32 +27,9 @@
   margin-left: 1%;
 }
 
-.menu-item {
-  
-  display:inline-block;
-  position:absolute;
-  left:30%;
-  margin-top: 2%
-  
-  
-}
-/* middle of nav */
-.menu-item a{
-  color:#8e8e8e;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.menu-item a:hover{
-  background-color: #8e8e8e;
-  color:#ddd;
-}
-
-
 h1.name {
-  display: none;
-  font-weight: 190;
+  display: inline-block;
+  font-weight: 200;
   position: absolute;
   margin-top: 1%;
   left: 40%;
@@ -62,15 +39,14 @@ h1.name {
 .social-media-container {
   display: inline-block;
   position: relative;
-  width: 70%;
-  left: 85%;
-  padding-left: 2.5%;
- 
+  width: 100%;
+  height: auto;
+  left: 84%;
+  padding-left: 4%;
 }
 
 .icon-social {
   margin-left: 0.5%;
-  
 }
 
 .sticky {
@@ -80,10 +56,12 @@ h1.name {
 }
 
 .sticky + .slider-main {
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
-
+#myLinks {
+  display: none;
+}
 
 /* Slider */
 
@@ -91,20 +69,20 @@ h1.name {
   display: flex;
   overflow-y: hidden;
   align-items: flex-start;
-  height: 718px;
-  
+  height: 730px;
 
   
 }
 
 .slider-main::-webkit-scrollbar {
 
-  height: 10px;
+  height: 5px;
 }
 
 .slider-main::-webkit-resizer {
   position: absolute;
-
+  bottom: 10px;
+  
 }
 
 #first-item {
@@ -113,37 +91,36 @@ h1.name {
 
 .slider-item {
   padding-left: 20px;
-  padding-top: 0;
   max-width: 1168px;
   height: 700px;
   object-fit: cover;
-  
 }
 
 /* footer */
 
 .footer {
   width: 100%;
-  bottom: 10px;
+  bottom: 12px;
   background-color:white;
   position: absolute;
   padding-bottom: 0;
-  padding-top: 0.5%;
+  
 
-}
-
-.footer a{
- 
-  text-decoration: none;
+  
   
 }
 
+.footer a{
+  color:red;
+  text-decoration: none;
+}
+
 .item-footer {
-  padding: 0.4em;
-  width: 0.9em;
+  padding: 0.5em;
+  width: 1.2em;
   object-fit: cover;
 }
 
 .fullscreen {
-  width: 20px;
+  width: 30px;
 }

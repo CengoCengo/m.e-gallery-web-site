@@ -28,27 +28,20 @@
 }
 
 .menu-item {
-  
   display:inline-block;
   position:absolute;
-  left:30%;
-  margin-top: 2%
+  
   
   
 }
-/* middle of nav */
+
 .menu-item a{
-  color:#8e8e8e;
+ 
+  color: red;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
-
-.menu-item a:hover{
-  background-color: #8e8e8e;
-  color:#ddd;
-}
-
 
 h1.name {
   display: none;
@@ -92,7 +85,7 @@ h1.name {
   overflow-y: hidden;
   align-items: flex-start;
   height: 718px;
-  
+  display: none;
 
   
 }
@@ -114,6 +107,7 @@ h1.name {
 .slider-item {
   padding-left: 20px;
   padding-top: 0;
+
   max-width: 1168px;
   height: 700px;
   object-fit: cover;

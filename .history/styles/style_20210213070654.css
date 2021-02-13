@@ -44,12 +44,6 @@
   font-size: 17px;
 }
 
-.menu-item a:hover{
-  background-color: #8e8e8e;
-  color:#ddd;
-}
-
-
 h1.name {
   display: none;
   font-weight: 190;

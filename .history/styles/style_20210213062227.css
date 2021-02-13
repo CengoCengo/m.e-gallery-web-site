@@ -15,7 +15,7 @@
 .menu-container {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 50%;
   overflow: hidden;
 }
 
@@ -27,31 +27,8 @@
   margin-left: 1%;
 }
 
-.menu-item {
-  
-  display:inline-block;
-  position:absolute;
-  left:30%;
-  margin-top: 2%
-  
-  
-}
-/* middle of nav */
-.menu-item a{
-  color:#8e8e8e;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.menu-item a:hover{
-  background-color: #8e8e8e;
-  color:#ddd;
-}
-
-
 h1.name {
-  display: none;
+  display: inline-block;
   font-weight: 190;
   position: absolute;
   margin-top: 1%;
@@ -83,7 +60,9 @@ h1.name {
   padding-top: 30px;
 }
 
-
+#myLinks {
+  display: none;
+}
 
 /* Slider */
 
@@ -92,7 +71,6 @@ h1.name {
   overflow-y: hidden;
   align-items: flex-start;
   height: 718px;
-  
 
   
 }
@@ -114,6 +92,7 @@ h1.name {
 .slider-item {
   padding-left: 20px;
   padding-top: 0;
+
   max-width: 1168px;
   height: 700px;
   object-fit: cover;
