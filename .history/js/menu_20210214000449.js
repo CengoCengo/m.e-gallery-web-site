@@ -3,10 +3,9 @@ function navMenu(){
   var y = document.getElementById("name")
   if (x.style.display === "block") {
     x.style.display = "none";
-    y.style.display = "block"
+    y.style.display = "inline"
   } else {
     x.style.display = "block";
-    y.style.display = "none"
   }
   }
   

@@ -37,10 +37,6 @@
   
 }
 /* middle of nav */
-
-#myLinks{
-  display: none;
-}
 #myLinks a{
   color:#8e8e8e;
   padding: 14px 16px;
@@ -48,7 +44,6 @@
   font-size: 17px;
   position: relative;
   top: 0;
-  
 
 }
 
@@ -59,7 +54,7 @@
 
 
 h1.name {
-  display: block;
+  display: none;
   font-weight: 190;
   position: absolute;
   margin-top: 1%;

@@ -59,7 +59,7 @@
 
 
 h1.name {
-  display: block;
+  display: none;
   font-weight: 190;
   position: absolute;
   margin-top: 1%;

@@ -37,29 +37,21 @@
   
 }
 /* middle of nav */
-
-#myLinks{
-  display: none;
-}
-#myLinks a{
+.menu-item a{
   color:#8e8e8e;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  position: relative;
-  top: 0;
-  
-
 }
 
-#myLinks a:hover{
+.menu-item a:hover{
   background-color: #8e8e8e;
   color:#ddd;
 }
 
 
 h1.name {
-  display: block;
+  display: none;
   font-weight: 190;
   position: absolute;
   margin-top: 1%;
