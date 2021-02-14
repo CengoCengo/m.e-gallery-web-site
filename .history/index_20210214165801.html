@@ -68,7 +68,7 @@
         <img class= "slider-item" src="images/3.jpg" alt="">
        
         <div class="footer ">
-          <a href="javascript:void(0);" id = "leftslide"  >
+          <a  href="" id = "leftslide" onclick="scrollWin()" >
             <img class="item-footer" src="images/icon/arrow-left.png" alt="">
           </a>
           <a href="javascript:void(0);" id = "rightslide" >
@@ -81,6 +81,12 @@
         </div>
         
     </div> 
+
+    <script>
+      function scrollWin() {
+        window.scrollBy(100, 100);
+      }
+    </script>
 
     <script type="text/javascript" src="js/sticky.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
