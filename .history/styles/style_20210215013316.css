@@ -12,15 +12,12 @@
   background: #8e8e8e;
 }
 
-/* general navbar settings */
 .menu-container {
   display: inline-block;
   position: relative;
   width: 100%;
   overflow: hidden;
 }
-
-/* menu icon */
 
 #icon-menu {
   display: inline-block;
@@ -30,45 +27,33 @@
   margin-left: 1%;
 }
 
-/* middle of nav */
-
 .menu-item {
   
-  display:flex;
+  display:inline-block;
   position:absolute;
   left:30%;
   margin-top: 2%
   
   
 }
-
+/* middle of nav */
 
 #myLinks{
   display: none;
-  position: absolute;
-
-  
 }
 #myLinks a{
-  
   color:#8e8e8e;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  position: relative;
   top: 0;
-
   
 }
 
 #myLinks a:hover{
   background-color: #8e8e8e;
   color:#ddd;
-}
-
-/* dropdown settings */
-
-.dropdown{
-  display: inline;
 }
 
 
