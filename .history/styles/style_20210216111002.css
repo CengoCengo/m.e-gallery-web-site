@@ -69,17 +69,17 @@
 
 .dropdown{
   display: inline;
-
-  
+  z-index:2;
 }
 
 .dropdown-links{
   display: flex;
   position:absolute;
-  align-items: flex-start;
   margin-left: 90px ;
-  flex-direction: column;
-  z-index: 2;
+  flex-direction: row;
+  height: 400px;
+
+ 
   
   
 }
@@ -127,11 +127,19 @@ right side of navbar */
 
 /* Slider */
 
+.z-index{
+  position: relative;
+  z-index: -1;
+}
+
 .slider-main {
   display: flex;
   overflow-y: hidden;
   align-items: flex-start;
   height: 718px;
+
+  z-index:-1
+
   
 }
 
