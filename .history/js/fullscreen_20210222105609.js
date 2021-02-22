@@ -1,0 +1,1 @@
+document.getElementById("slider-scroll").requestFullscreen();
