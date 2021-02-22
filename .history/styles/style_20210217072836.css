@@ -1,0 +1,192 @@
+* {
+  margin: 0 ;
+  padding: 0 ;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+::-webkit-scrollbar {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8e8e8e;
+}
+
+/* general navbar settings */
+.menu-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index:1;
+}
+
+/* menu icon */
+
+#icon-menu {
+  display: inline-block;
+  width: 50px;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+/* middle of nav */
+
+.menu-item {
+  
+  display:flex;
+  position:absolute;
+  left:30%;
+  margin-top: 2%;
+  z-index:1;
+  
+  
+}
+
+
+#myLinks{
+  display: none;
+  position: absolute;
+
+  
+}
+#myLinks a{
+  
+  color:#8e8e8e;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  top: 0;
+
+  
+}
+
+#myLinks a:hover{
+  background-color: #8e8e8e;
+  color:#ddd;
+}
+
+/* dropdown settings */
+
+.dropdown{
+  display: inline-block;
+  position: relative;
+  
+
+  
+}
+
+.dropdown-links{
+  display: flex;
+  position: absolute;
+  margin-left: 90px ;
+  flex-direction: column;
+  z-index: 1;
+  text-decoration: none;
+
+}
+
+
+
+
+h1.name {
+  display: block;
+  font-weight: 190;
+  position: absolute;
+  margin-top: 1%;
+  left: 40%;
+  color: #8e8e8e;
+}
+
+/* 
+right side of navbar */
+
+.social-media-container {
+  display: inline-block;
+  position: relative;
+  width: 70%;
+  left: 85%;
+  padding-left: 2.5%;
+ 
+}
+
+.icon-social {
+  margin-left: 0.5%;
+  
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .slider-main {
+  padding-top: 30px;
+}
+
+
+
+/* Slider */
+
+.slider-main {
+  display: flex;
+  overflow-y: hidden;
+  align-items: flex-start;
+  height: 718px;
+
+  
+}
+
+.slider-main::-webkit-scrollbar {
+
+  height: 10px;
+}
+
+.slider-main::-webkit-resizer {
+  position: absolute;
+
+}
+
+#first-item {
+  padding-left: 0;
+
+}
+
+.slider-item {
+  padding-left: 20px;
+  padding-top: 0;
+  max-width: 1168px;
+  height: 700px;
+  object-fit: cover;
+  
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  bottom: 10px;
+  background-color:white;
+  position: absolute;
+  padding-bottom: 0;
+  padding-top: 0.5%;
+
+}
+
+.footer a{
+ 
+  text-decoration: none;
+  
+}
+
+.item-footer {
+  padding: 0.4em;
+  width: 0.9em;
+  object-fit: cover;
+}
+
+.fullscreen {
+  width: 20px;
+}
