@@ -3,6 +3,8 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
+   
+    
 }
 /* 
 scrollbar style */
@@ -27,7 +29,9 @@ scrollbar style */
 .menu-container {
     display: flex;
     width: 100%;
-    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+
 
 }
 
@@ -44,11 +48,9 @@ scrollbar style */
 /* middle of nav */
 
 .menu-item {
-    
-    display: flex;
+
     left: 30%;
     margin-top: 1%;
-    z-index: 1;
 
 
 }
@@ -90,7 +92,6 @@ scrollbar style */
     margin-left: 80px;
     position: absolute;
     top: 40px;
-   
 
 }
 
@@ -130,7 +131,18 @@ right side of navbar */
 
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+}
 
+.sticky + .general{
+    padding-top: 100px;
+    
+    
+}
 
 
 /* Slider */
@@ -141,7 +153,6 @@ right side of navbar */
     position: absolute;
     overflow: hidden;
     z-index: -1;
-    top: 10%
 }
 
 .slider-main {
@@ -151,6 +162,11 @@ right side of navbar */
     align-items: flex-start;
     height: 700px;
     z-index: -1;
+   
+   
+  
+   
+   
 }
 
 

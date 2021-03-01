@@ -28,6 +28,7 @@ scrollbar style */
     display: flex;
     width: 100%;
     position: fixed;
+    
 
 }
 
@@ -151,6 +152,11 @@ right side of navbar */
     align-items: flex-start;
     height: 700px;
     z-index: -1;
+   
+   
+  
+   
+   
 }
 
 
